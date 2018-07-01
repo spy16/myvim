@@ -20,8 +20,8 @@ let g:netrw_list_hide = &wildignore
 autocmd FileType netrw set nolist
 
 " Undo history
-set undofile
-set undodir=~/.config/nvim/undodir
+" set undofile
+" set undodir=~/.config/nvim/undodir
 
 " Show linenumbers
 set number

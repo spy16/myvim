@@ -15,6 +15,9 @@ nnoremap <silent> <Leader>m :History<CR>
 nnoremap <silent> <c-f> :Ag<CR>
 nnoremap <silent> <c-g> :Commits<CR>
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
+nnoremap <leader>x :Explore<CR>
+nnoremap <leader>xv :Vexplore<CR>
+nnoremap <leader>xs :Sexplore<CR>
 " noremap <leader>nn :NERDTreeToggle<CR>
 " noremap <leader>nf :NERDTreeFind<CR>
 

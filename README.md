@@ -1,4 +1,4 @@
-# MyVIM Setup
+# My Vim Setup
 This repository contains `.vimrc` files for my `neovim` setup.
 
 
