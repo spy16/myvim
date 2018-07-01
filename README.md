@@ -28,3 +28,6 @@ Configuration is split into 5 files.
 
 ## Plugins
 See `plugins.vim` for list of plugins that will be installed on running `:PlugInstall`
+
+> Note: `fzf` needs to be installed separately using a package manager and should be available at `/usr/local/opt/fzf`
+
