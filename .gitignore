@@ -1,2 +1,6 @@
-plugged/*
-tmp/*
+plugged/
+tmp/
+undodir/
+
+
+.netrwhist

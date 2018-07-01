@@ -8,6 +8,12 @@ set nowrap
 set encoding=utf8
 set backspace=indent,eol,start
 set mouse=a
+set clipboard=unnamed
+
+
+" Undo history
+set undofile
+set undodir=~/.config/nvim/undodir
 
 " Show linenumbers
 set number
@@ -45,7 +51,7 @@ set directory=~/.config/nvim/tmp/
 set laststatus=2
 
 " Enable Elite mode, No ARRRROWWS!!!!
-let g:elite_mode=0
+let g:elite_mode=1
 
 " Enable highlighting of the current line
 set cursorline
@@ -78,4 +84,5 @@ if has("win16") || has("win32")
 else
     set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
 endif
+
 
