@@ -11,6 +11,13 @@ set mouse=a
 set clipboard=unnamed
 set updatetime=400
 
+
+" netrw configurations
+" let g:netrw_banner = 0
+let g:netrw_banner=0
+let g:netrw_list_hide = &wildignore
+autocmd FileType netrw set nolist
+
 " Undo history
 set undofile
 set undodir=~/.config/nvim/undodir
