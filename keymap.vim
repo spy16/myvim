@@ -4,11 +4,7 @@ let mapleader=','
 nmap <Leader>w :w!<CR>
 inoremap jj <ESC>
 cmap w!! %!sudo tee > /dev/null %
-map <Leader>/ :vsp<CR>
-map <Leader>- :sp<CR>
 map <silent> <leader><cr> :noh<cr>
-
-
 
 " Editing
 noremap <silent> <Leader>cc :TComment<CR>
@@ -19,6 +15,8 @@ nnoremap <silent> <Leader>m :History<CR>
 nnoremap <silent> <c-f> :Ag<CR>
 nnoremap <silent> <c-g> :Commits<CR>
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
+" noremap <leader>nn :NERDTreeToggle<CR>
+" noremap <leader>nf :NERDTreeFind<CR>
 
 " Buffer Management
 nnoremap <silent> <Leader>b :Buffers<CR>
@@ -32,12 +30,13 @@ map <leader>tm :tabmove
 map <leader>t<leader> :tabnext
 
 " Window Management
+map <Leader>/ :vsp<CR>
+map <Leader>- :sp<CR>
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-map <leader>nn :NERDTreeToggle<CR>
 
 " Golang Specific
 autocmd FileType go nmap <buffer> <leader>gb :GoBuild<CR> 

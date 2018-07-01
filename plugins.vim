@@ -9,13 +9,14 @@ Plug 'vim-syntastic/syntastic'
 Plug 'airblade/vim-gitgutter'
 Plug 'w0rp/ale'
 Plug 'jiangmiao/auto-pairs'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
+" Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 " Language support
 Plug 'fatih/vim-go'
+Plug 'vim-ruby/vim-ruby'
 
 " Color Schemes
 Plug 'morhetz/gruvbox'

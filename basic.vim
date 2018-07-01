@@ -9,7 +9,7 @@ set encoding=utf8
 set backspace=indent,eol,start
 set mouse=a
 set clipboard=unnamed
-
+set updatetime=400
 
 " Undo history
 set undofile
