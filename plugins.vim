@@ -12,6 +12,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'godlygeek/tabular'
 " Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 " Language support
