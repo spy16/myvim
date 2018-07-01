@@ -37,7 +37,6 @@ Following plugins are included in the `plugins.vim` file.
 * airblade/vim-gitgutter
 * w0rp/ale
 * jiangmiao/auto-pairs
-* scrooloose/nerdtree
 * /usr/local/opt/fzf
 * junegunn/fzf.vim
 * tpope/vim-fugitive
