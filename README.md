@@ -27,20 +27,4 @@ Configuration is split into 5 files.
 
 
 ## Plugins
-Following plugins are included in the `plugins.vim` file.
-
-* tomtom/tcomment_vim
-* sheerun/vim-polyglot
-* vim-airline/vim-airline
-* vim-airline/vim-airline-themes
-* vim-syntastic/syntastic
-* airblade/vim-gitgutter
-* w0rp/ale
-* jiangmiao/auto-pairs
-* /usr/local/opt/fzf
-* junegunn/fzf.vim
-* tpope/vim-fugitive
-* fatih/vim-go
-* morhetz/gruvbox
-* chriskempson/base16-vim
-
+See `plugins.vim` for list of plugins that will be installed on running `:PlugInstall`
