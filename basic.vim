@@ -11,6 +11,7 @@ set mouse=a
 set clipboard=unnamed
 set updatetime=400
 set wrap
+set nofoldenable
 
 
 " netrw configurations

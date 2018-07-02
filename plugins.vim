@@ -13,11 +13,13 @@ Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'godlygeek/tabular'
+Plug 'gabrielelana/vim-markdown'
 " Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 " Language support
 Plug 'fatih/vim-go'
 Plug 'vim-ruby/vim-ruby'
+Plug 'aradunovic/perun.vim'
 
 " Color Schemes
 Plug 'morhetz/gruvbox'

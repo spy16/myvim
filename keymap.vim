@@ -1,6 +1,10 @@
 let mapleader=','
 
 " Basic
+:command WQ wq
+:command Wq wq
+:command W w
+:command Q q
 nmap <Leader>w :w!<CR>
 inoremap jj <ESC>
 cmap w!! %!sudo tee > /dev/null %
@@ -23,13 +27,13 @@ nnoremap <leader>xs :Sexplore<CR>
 
 " Buffer Management
 nnoremap <silent> <Leader>b :Buffers<CR>
+nnoremap <silent> <Leader>bn :enew<CR>
 nnoremap <silent> <Leader>bd :bdelete<CR>
 
 " Tab Management
 map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
-map <leader>tm :tabmove
 map <leader>t<leader> :tabnext
 
 " Window Management
@@ -47,3 +51,4 @@ autocmd FileType go nmap <buffer> <leader>gt :GoTest<CR>
 autocmd FileType go nmap <buffer> <leader>at :GoAddTags<CR>
 autocmd FileType go nmap <buffer> <Leader>gc :GoCoverageToggle<CR> 
 autocmd FileType go nmap <buffer> <Leader>gi :GoImplements<CR> 
+autocmd FileType go nmap <buffer> <Leader>ga :GoAlternate<CR>
