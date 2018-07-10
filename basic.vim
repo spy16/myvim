@@ -8,7 +8,6 @@ set nowrap
 set encoding=utf8
 set backspace=indent,eol,start
 set mouse=a
-set clipboard=unnamed
 set updatetime=400
 set wrap
 set nofoldenable
