@@ -15,6 +15,7 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tomtom/tcomment_vim'
+Plug 'dbeniamine/cheat.sh-vim'
 
 " Language support
 Plug 'sheerun/vim-polyglot'

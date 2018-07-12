@@ -10,6 +10,10 @@ inoremap jj <ESC>
 cmap w!! %!sudo tee > /dev/null %
 map <silent> <leader><cr> :noh<cr>
 
+" Yank to PRIMARY
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+
 " Editing
 noremap <silent> <Leader>cc :TComment<CR>
 
