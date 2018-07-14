@@ -16,6 +16,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tomtom/tcomment_vim'
 Plug 'dbeniamine/cheat.sh-vim'
+Plug 'avakhov/vim-yaml'
 
 " Language support
 Plug 'sheerun/vim-polyglot'
