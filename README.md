@@ -12,7 +12,11 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-Once that is done, clone the contents of this repo into `~/.config/nvim` directory, start `nvim` and run `:PlugInstall` to install all the plugins. Restart `vim` and enjoy!
+Once that is done: 
+
+1. clone the contents of this repo into `~/.config/nvim` directory
+2. start `nvim` and run `:PlugInstall` to install all the plugins
+3. Restart `vim` and enjoy!
 
 
 ## Organization
