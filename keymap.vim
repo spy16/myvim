@@ -16,6 +16,7 @@ noremap <Leader>p "*p
 
 " Editing
 noremap <silent> <Leader>cc :TComment<CR>
+noremap <silent> <Leader>sw :StripWhitespace<CR>
 
 " File Management
 nnoremap <silent> <Leader>f :Files<CR>
@@ -26,8 +27,6 @@ nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
 nnoremap <leader>x :Explore<CR>
 nnoremap <leader>xv :Vexplore<CR>
 nnoremap <leader>xs :Sexplore<CR>
-" noremap <leader>nn :NERDTreeToggle<CR>
-" noremap <leader>nf :NERDTreeFind<CR>
 
 " Buffer Management
 nnoremap <silent> <Leader>b :Buffers<CR>
@@ -50,9 +49,9 @@ map <C-l> <C-W>l
 
 
 " Golang Specific
-autocmd FileType go nmap <buffer> <leader>gb :GoBuild<CR> 
+autocmd FileType go nmap <buffer> <leader>gb :GoBuild<CR>
 autocmd FileType go nmap <buffer> <leader>gt :GoTest<CR>
 autocmd FileType go nmap <buffer> <leader>at :GoAddTags<CR>
-autocmd FileType go nmap <buffer> <Leader>gc :GoCoverageToggle<CR> 
-autocmd FileType go nmap <buffer> <Leader>gi :GoImplements<CR> 
+autocmd FileType go nmap <buffer> <Leader>gc :GoCoverageToggle<CR>
+autocmd FileType go nmap <buffer> <Leader>gi :GoImplements<CR>
 autocmd FileType go nmap <buffer> <Leader>ga :GoAlternate<CR>
