@@ -1,20 +1,22 @@
 " ====================================
 call plug#begin('~/.config/nvim/plugged')
 " ------------------------------------
+" Essentials
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-syntastic/syntastic'
 Plug 'airblade/vim-gitgutter'
-Plug 'w0rp/ale'
 Plug 'jiangmiao/auto-pairs'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
-Plug 'godlygeek/tabular'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+
+" Good to have
+Plug 'vim-airline/vim-airline-themes'
+Plug 'w0rp/ale'
+Plug 'godlygeek/tabular'
 Plug 'tomtom/tcomment_vim'
-Plug 'dbeniamine/cheat.sh-vim'
 
 " Language support
 Plug 'avakhov/vim-yaml'
