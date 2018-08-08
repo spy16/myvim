@@ -17,6 +17,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale'
 Plug 'godlygeek/tabular'
 Plug 'tomtom/tcomment_vim'
+Plug 'Chiel92/vim-autoformat'
 
 " Language support
 Plug 'avakhov/vim-yaml'
@@ -26,6 +27,7 @@ Plug 'fatih/vim-go'
 Plug 'vim-ruby/vim-ruby'
 Plug 'aradunovic/perun.vim'
 Plug 'posva/vim-vue'
+Plug 'elixir-editors/vim-elixir'
 
 " Color Schemes
 Plug 'morhetz/gruvbox'
