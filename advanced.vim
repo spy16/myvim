@@ -2,12 +2,14 @@ try
 colorscheme gruvbox
 catch
 endtry
-
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
-
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+
+" File type specific configurations
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 " FZF Configurations
 function! s:fzf_statusline()
@@ -19,14 +21,6 @@ function! s:fzf_statusline()
 endfunction
 autocmd! User FzfStatusLine call <SID>fzf_statusline()
 let g:fzf_layout = { 'down': '~30%' }
-
-" NERDTree Configuration
-" let g:NERDTreeHijackNetrw=0
-" let g:NERDTreeQuitOnOpen = 1
-" let g:NERDTreeDirArrowExpandable = '+'
-" let g:NERDTreeDirArrowCollapsible = '-'
-" let g:NERDTreeMinimalUI = 0
-" let g:NERDTreeDirArrows = 1
 
 " Airline configurations
 let g:airline#extensions#tabline#enabled = 1
@@ -59,3 +53,6 @@ let g:go_highlight_types = 1
 let g:go_auto_sameids = 0
 let g:go_auto_type_info = 0
 let g:go_fmt_command = "goimports"
+
+autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif

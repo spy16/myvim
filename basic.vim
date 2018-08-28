@@ -64,7 +64,7 @@ let g:elite_mode=1
 " Enable highlighting of the current line
 set cursorline
 
-" Theme and Styling 
+" Theme and Styling
 set t_Co=256
 set background=dark
 
@@ -73,7 +73,7 @@ if (has("termguicolors"))
 endif
 
 " Access colors present in 256 colorspace
-let base16colorspace=256  
+let base16colorspace=256
 
 " Disable error sounds
 set noerrorbells
@@ -93,4 +93,12 @@ else
     set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
 endif
 
-
+let g:python3_host_prog = "/usr/local/bin/python3"
+" au BufNewFile,BufRead *.py
+"     \ set tabstop=4
+"     \ set softtabstop=4
+"     \ set shiftwidth=4
+"     \ set textwidth=79
+"     \ set expandtab
+"     \ set autoindent
+"     \ set fileformat=unix

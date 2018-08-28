@@ -11,6 +11,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " Good to have
 Plug 'vim-airline/vim-airline-themes'
@@ -28,6 +29,8 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'aradunovic/perun.vim'
 Plug 'posva/vim-vue'
 Plug 'elixir-editors/vim-elixir'
+Plug 'vim-scripts/indentpython.vim'
+Plug 'nvie/vim-flake8'
 
 " Color Schemes
 Plug 'morhetz/gruvbox'
