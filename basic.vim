@@ -22,10 +22,13 @@ autocmd FileType netrw set nolist
 " Undo history
 " set undofile
 " set undodir=~/.config/nvim/undodir
+"
+
+" enable spell check for everything
+set spell
 
 " Show linenumbers
 set number
-set relativenumber
 
 " Set Proper Tabs
 set tabstop=4
