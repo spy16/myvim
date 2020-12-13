@@ -25,16 +25,12 @@ Plug 'avakhov/vim-yaml'
 Plug 'gabrielelana/vim-markdown'
 Plug 'sheerun/vim-polyglot'
 Plug 'fatih/vim-go'
-Plug 'vim-ruby/vim-ruby'
 Plug 'aradunovic/perun.vim'
-Plug 'posva/vim-vue'
-Plug 'elixir-editors/vim-elixir'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'nvie/vim-flake8'
 
 " Color Schemes
 Plug 'morhetz/gruvbox'
-Plug 'chriskempson/base16-vim'
 
 " ------------------------------------
 call plug#end()
